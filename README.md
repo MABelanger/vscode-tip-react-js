@@ -71,6 +71,12 @@ The config that you've selected requires the following dependencies:
   },
 ```
 
+```js
+  {
+    'max-len': ['error', { code: 80 }]
+  }
+```
+
 # install react plugin
 
 CTRL + P
