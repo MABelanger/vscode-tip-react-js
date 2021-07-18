@@ -93,3 +93,8 @@ rfcp→	react function component proptype
 
 .env.development
 ESLINT_NO_DEV_ERRORS=true
+
+# prod env
+
+.env.production
+DISABLE_ESLINT_PLUGIN=true
