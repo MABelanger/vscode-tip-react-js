@@ -61,7 +61,29 @@ The config that you've selected requires the following dependencies:
 
 ```js
   rules: {
+    'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'no-unused-vars': ['warn'],
+    'max-len:': ['error', { code: 80 }],
+    'no-shadow': 'off',
+    'react/destructuring-assignment': 'off',
   },
+```
+
+# install react plugin
+
+CTRL + P
+
+```
+ext install dsznajder.es7-react-js-snippets
+```
+
+# function and import
+
+```
+imd→	import { destructuredModule } from 'module'
+ren→	render() { return( ) }
+clo→	console.log(`object`, object)
+rfc→	react function component proptype
+rfcp→	react function component proptype
 ```
