@@ -87,3 +87,8 @@ clo→	console.log(`object`, object)
 rfc→	react function component proptype
 rfcp→	react function component proptype
 ```
+
+# dev env
+
+.env.development
+ESLINT_NO_DEV_ERRORS=true
