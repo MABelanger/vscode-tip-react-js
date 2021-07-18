@@ -64,9 +64,10 @@ The config that you've selected requires the following dependencies:
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'no-unused-vars': ['warn'],
-    'max-len:': ['error', { code: 80 }],
+    'max-len': [1, 80, 2],
     'no-shadow': 'off',
     'react/destructuring-assignment': 'off',
+    emitWarning: 0,
   },
 ```
 
