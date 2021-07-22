@@ -77,6 +77,18 @@ The config that you've selected requires the following dependencies:
   }
 ```
 
+# disable vscodevim conflict CTRL + C,D
+
+```js
+  "vim.useCtrlKeys": false,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-d>": false,
+    "<A-S-Up>": false,
+    "<A-S-Down>": false
+  }
+```
+
 # install react plugin
 
 CTRL + P
@@ -96,6 +108,7 @@ rfcp→	react function component proptype
 ```
 
 # Keyboard shortcut
+
 ```
 CTRL + `
 Toogle terminal
