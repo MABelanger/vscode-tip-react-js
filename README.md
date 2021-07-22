@@ -95,6 +95,21 @@ rfc→	react function component proptype
 rfcp→	react function component proptype
 ```
 
+# Keyboard shortcut
+```
+CTRL + `
+Toogle terminal
+
+CTRL + TAB
+Switch between file tab
+
+CTRL +_P
+Find file in the project
+
+CTRL + B
+Toogle Explorer
+```
+
 # dev env
 
 .env.development
