@@ -117,7 +117,7 @@ Toogle terminal
 CTRL + TAB
 Switch between file tab
 
-CTRL +_P
+CTRL + P
 Find file in the project
 
 CTRL + B
