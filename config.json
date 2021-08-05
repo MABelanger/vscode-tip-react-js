@@ -1,0 +1,20 @@
+{
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "vim.useCtrlKeys": false,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-d>": false,
+    "<A-S-Up>": false,
+    "<A-S-Down>": false
+  }
+}
