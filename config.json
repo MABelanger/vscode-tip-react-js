@@ -1,11 +1,14 @@
 {
+  "update.mode": "none",
+  "telemetry.enableTelemetry": false,
+  "workbench.colorTheme": "Default Dark+",
   "files.autoSave": "afterDelay",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": true
